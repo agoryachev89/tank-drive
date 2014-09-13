@@ -11,6 +11,7 @@ public class Window extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setResizable(false);
 		add(game);
+		setLocationRelativeTo(null);
 		setVisible(true);
 	}
 }

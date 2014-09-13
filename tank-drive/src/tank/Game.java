@@ -66,7 +66,7 @@ public class Game extends Canvas implements Runnable {
 		//B - brick
 		//C - concrete
 		
-		BufferedReader br = new BufferedReader(new FileReader("D:\\Party\\JavaProjects\\tank-drive\\src\\maps\\level" + level + ".map"));
+		BufferedReader br = new BufferedReader(new FileReader("src\\maps\\level" + level + ".map"));
         
         String line = null;
         int j = 0;
